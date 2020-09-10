@@ -1,4 +1,4 @@
-def main():
+def primary():
 
  print("Keep it logically awesome.")
 
@@ -8,8 +8,9 @@ def main():
 
   #print(quotes)
 
-if __name__== "__main__":
-  main()
+if __name__== "__primary__":
+  primary()
 
-git status
+git commit -m "Renamed the primary function"
+git push
 
